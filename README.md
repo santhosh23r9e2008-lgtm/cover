@@ -1,5 +1,5 @@
 # Ex.06 Book Front Cover Page Design
-## Date:
+## Date:16.10.2025
 
 ## AIM:
 To design a book front cover page using HTML and CSS.
@@ -31,9 +31,108 @@ Insert the images in their appropriate places.
 Publish the website in the LocalHost.
 
 ## PROGRAM:
+```
+<html>
+<head>
+    
+    <style>
+        .container {
+            position:absolute;
+            margin-left: 30%;
+            margin-right: 50%;
+            width: 300px;
+            height: 300px;
+            
+        }
+        .background-image
+        {   align-items: center;
+            width: 210%;
+            height: 260%;
+        }
 
+        .topic {
+            position: absolute;
+            top: 30px;
+            left: 40px;
+            color:rgb(53, 20, 124);
+            font-style:italic;
+            font-size: 20px;
 
-## OUTPUT:
+        }
+
+        .main-title {
+            position:absolute;
+            text-align: center;
+            top: 150px;
+            left: 150px;
+            color:chartreuse;
+            font-style:italic;
+            font-size: 40px;
+        }
+
+        .subtitle {
+            position: absolute;
+            font-style:oblique;
+            font-size: 25px;
+            top: 350px;
+            left: 40px;
+            font-weight:bolder;
+            color:hotpink;
+        }
+
+        .edition {
+            position: absolute;
+            bottom: -450px;
+            left: 40px;
+            color:rgb(4, 24, 253);
+            font-style:oblique;
+            font-size: 40px
+        }
+        .photo {
+            position: absolute;
+            bottom: -400px;
+            right: -250px;
+            width: 120px;
+            height: auto;
+        }
+        .college{
+            position:absolute;
+            bottom: -500px;
+            right: -200px;
+            font-style:oblique ;
+            font-size: 20px;
+            color:azure;
+        }
+
+        .Name {
+            position: absolute;
+            bottom: -480px;
+            right: -260px;
+            color:orangered;
+            font-style:italic;
+            font-size: 25px;
+            
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img class="background-image" src="image.png">
+        <p class ="topic"> EXPERTS INSIGHT</p>
+        <h1 class="main-title" >WEB DESING FRAMEWORKS</h1>
+        <h2 class="subtitle"> FUTURE OF WEB DEVELOPMENT</h2>
+        <p class="edition" >FOURTH EDITION</p>
+        <p class="Name" >Santhosh G</p>
+        <p class="college" >SEC</p>
+    </div>
+</body>
+</html>
+
+```
+## output:
+<img width="1919" height="977" alt="Screenshot 2025-10-16 081730" src="https://github.com/user-attachments/assets/21a74437-b8b3-4e67-b75b-ff06b57d8e4c" />
+
 
 
 ## RESULT:
